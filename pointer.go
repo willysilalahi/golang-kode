@@ -17,5 +17,9 @@ func main() {
 	//new
 	ptr := new(int)
 	*ptr = 14
+	fmt.Println(ptr)
 	fmt.Println(*ptr)
+
+	test := new(int)
+	fmt.Println(test)
 }
